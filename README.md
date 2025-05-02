@@ -1,4 +1,3 @@
-
 ## About 
 
 #### This project is about implementing the printf built-in command.
