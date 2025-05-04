@@ -23,7 +23,7 @@ The following converions are handled in this project:
 2) `src` : ft_printf.c ft_print_hex.c ft_put.c
 3) `obj` : ft_printf.o ft_print_hex.o ft_put.o
 
-`NOTE`: The best way to test your code is by simply comparing your function output with `printf()` outputs as it show below:
+`NOTE`: The best way to test your code is by simply comparing your function output with `printf()` outputs.
 
 
 In this project the main challenge I faced was learning how to work with the `variadic functions`. Since the built-in command `printf` take infinte number of arguments it was a challenge to figure how to implement the same function in my code, and the variadic functions were the answer. Implementing `va_start()`, `va_arg()` and `va_end()` gave my function the ability to accept `infinite` number of arguments.
