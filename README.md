@@ -12,8 +12,6 @@ The following converions are handled in this project:
  - `%c` character
  - `%%` percentage
 
- `NOTE`: Main file is uploaded to check, test and compare the project conversions outpust to the main `printf` built-in command
-
 
 
 #### Makefile creates a `Files` directory which hold the project content
@@ -29,3 +27,21 @@ The following converions are handled in this project:
 
 
 In this project the main challenge I faced was learning how to work with the `variadic functions`. Since the built-in command `printf` take infinte number of arguments it was a challenge to figure how to implement the same function in my code, and the variadic functions were the answer. Implementing `va_start()`, `va_arg()` and `va_end()` gave my function the ability to accept `infinite` number of arguments.
+
+## Compilation
+
+To compile the project, simply run:
+
+```bash
+make
+```
+This will compile all source files and generate the libftprintf.a archive. Then compile and run the test:
+
+```bash
+gcc libftprintf.a -o ft_printf
+./ft_printf
+```
+
+
+
+
