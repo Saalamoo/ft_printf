@@ -20,8 +20,8 @@ The following converions are handled in this project:
  #### The content include:
 
 1) `inc` : ft_printf.h
-2) `src` : ft_printf.c ft_character.c ft_string.c ft_putnbr.c ft_hexa.c ft_ pointer.c ft_unsigned.c main.c
-3) `obj` : ft_printf.o ft_character.o ft_string.o ft_putnbr.o ft_hexa.o ft_ pointer.o ft_unsigned.o main.o
+2) `src` : ft_printf.c ft_print_hex.c ft_put.c
+3) `obj` : ft_printf.o ft_print_hex.o ft_put.o
 
 `NOTE`: The best way to test your code is by simply comparing your function output with `printf()` outputs as it show below:
 
